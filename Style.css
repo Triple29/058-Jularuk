@@ -142,11 +142,12 @@ ul.menu a:hover{
   margin-bottom: 2%;
 }
 .contact_info{
-  padding-left: 30%;
+  padding-left: 10px;
+  margin-left: -350px;
   
 }
 .contact_infos{
-  padding-left: 45%; 
+  padding-left: 9%; 
   color: white;
    margin-top: -50px; 
 }
@@ -167,9 +168,9 @@ ul.menu a:hover{
     font-weight: normal;
 
 }
-.so {
-  margin-left: 40%;
-}
+/* .so {
+  justify-content: center;
+} */
 .Line-2{
  
   transform:rotate(90.00000250447808deg);
@@ -193,7 +194,8 @@ ul {
 .so{
     color: white;
     font-size: 20px;
-    padding-left: 3%;
+    margin-left: -120px;
+    
 }
 
 
@@ -989,6 +991,9 @@ ol{
 	width : 250px;
 	padding-bottom: 10%;
 }
+#footer{
+  grid-column: 1 / span 3 ;
+}
 
 #footercol{
 	grid-column: 1 / span 3 ;
@@ -996,6 +1001,7 @@ ol{
 	text-align: center;
 	color: white;
   font-weight: normal;
+  
   letter-spacing: 1px;
 	background-color: rgb(29, 29, 44);
 	
